@@ -23,8 +23,8 @@ def create_paddle(x, color):
     return paddle
 
 # Create left and right paddles
-left_paddle = create_paddle(-400, "white")
-right_paddle = create_paddle(400, "white")
+left_paddle = create_paddle(-350, "white")
+right_paddle = create_paddle(350, "white")
 
 # Ball Creation
 ball = turtle.Turtle()
